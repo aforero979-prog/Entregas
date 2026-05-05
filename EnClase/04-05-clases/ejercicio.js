@@ -19,8 +19,9 @@ class Persona {
 
 
 let personas = []
+let howmanyusers = Number(prompt(`Cuantos usuarios quieres agregar?:`))
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < howmanyusers; i++) {
 
     let name = prompt("User name:")
     let age = prompt("User age:")
